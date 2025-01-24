@@ -1,0 +1,74 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary or log files
+*.log
+*.tmp
+
+# Ignore virtual environment folders
+venv/
+.env/
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore compiled code or binaries
+*.so
+*.dll
+*.exe
+*.out
+
+# Ignore test outputs
+*.coverage
+coverage.xml
+
+# Ignore configuration files
+*.ini
+*.cfg
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+# Ignore data files
+data/raw/
+data/processed/
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.h5
+
+# Ignore model files
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.ckpt
+
+# Ignore large files or intermediate outputs
+*.npy
+*.npz
+*.pkl
+*.dat
+
+# Ignore MLFlow and DVC artifacts (if applicable)
+mlruns/
+.dvc/
+.dvcignore
+.cache/
+
+# Ignore visualization or reports
+reports/*.html
+reports/*.pdf
